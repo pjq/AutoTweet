@@ -6,7 +6,15 @@
 #########################################################################
 #!/bin/bash
 
-cd /home/pjqtmp
-now=`date`
-msg="My computer stops at ${now}"
-java -jar /home/pjq/workspace/AutoTweet/autotweet.jar  ${msg}
+cd /home/pjq/tmp
+#echo ${1}
+tmp=""
+while [ $# -gt 0 ]
+do
+#    echo "$1"
+    tmp="${tmp} ${1}"
+    shift
+done
+
+#echo ${tmp}
+java -jar /home/pjq/workspace/AutoTweet/autotweet.jar ${tmp}

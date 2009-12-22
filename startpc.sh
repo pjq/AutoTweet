@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-cd /tmp
+cd /home/pjq/tmp
 now=`date`
 msg="My computer starts at ${now}"
 java -jar /home/pjq/workspace/AutoTweet/autotweet.jar  ${msg}

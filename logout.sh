@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-cd /home/pjqtmp
+cd /home/pjq/tmp
 now=`date`
-msg="My computer stops at ${now}"
+msg="Logout at ${now}"
 java -jar /home/pjq/workspace/AutoTweet/autotweet.jar  ${msg}
