@@ -12,6 +12,11 @@ It support edit the Twitter API  Proxy,If you can't visit:
 http://twitter.com you may need it especially in China.
 Now you can use this API Proxy:http://nest.onedd.net/api/
 **************************************************************
+I write a shell to run it more simple:
+tweet.sh
+You can edit it according to your environment.
+
+
 If any problem,please contact with me:
 Email:pengjianqing@gmail.com
 Twitter:http://twitter.com/pengjianqing
