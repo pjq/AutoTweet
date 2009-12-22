@@ -6,5 +6,5 @@
 #########################################################################
 #!/bin/bash
 
-cd /tmp
+cd /home/pjq/tmp
 java -jar /home/pjq/workspace/AutoTweet/autotweet.jar `mpc play` 
