@@ -1,0 +1,12 @@
+This is a simple twitter client just used to add a tweet in terminal.
+It depends  on twitter4j,you can search it with google.
+
+
+1.If you first use it,it will create a config file:autotweet.conf
+2.Then edit the config file with your personal information.
+3.Then use it:java -jar autotweet.jar your status want to update.
+
+
+If any problem,please contact with me:
+Email:pengjianqing@gmail.com
+Twitter:http://twitter.com/pengjianqing
